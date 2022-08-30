@@ -7,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
   title = 'Task-Tracker';
+  /* 
+    *REVIEW: should you define these properties in the class or in the `header` html
+  */
+  // text = 'Add';
+  // color="green";
 
   constructor() { }
 
