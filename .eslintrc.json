@@ -1,0 +1,42 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/recommended",
+        "prettier"
+    ],
+    "overrides": [
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "plugins": [
+        "@typescript-eslint"
+    ],
+    "rules": {
+        "no-unneeded-ternary": "warn",
+        "no-magic-numbers":"warn",
+        "semi-style":"warn",
+        "no-useless-return":"warn",
+        "no-invalid-this":"error",
+        "no-implicit-coercion":"warn",
+        "func-names":"warn",
+        "curly":"warn",
+        "complexity":"error",
+        "class-methods-use-this":"error",
+        "camelcase":"warn",
+        "no-unsafe-optional-chaining": "error",
+        "no-unreachable":"error",
+        "no-self-compare":"error",
+        "no-trailing-spaces":"warn",
+        "no-negated-condition":"warn",
+        "no-unexpected-multiline":"error"
+        
+
+    }
+}
